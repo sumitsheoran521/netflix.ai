@@ -15,6 +15,12 @@
     - Implemented Sign Out
     - Update Profile
     - Fetch Movies from TMDB
+    - BugFix: Signup user displayName and profile picture update
+    - BugFix: if the user is not logged in redirect to Login page and vice-versa
+    - Unsubscribe to the onAuthStateChange callback
+    - Add hardcoded values to the constant file
+    - Register TMDB API & create an applicaiton and et access token
+    - Get data from TMDB now playing movies list API
 
 # Features
     
