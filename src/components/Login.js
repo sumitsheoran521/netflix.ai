@@ -86,10 +86,10 @@ const Login = () => {
   };
 
   return (
-    <div>
+    <div className=" h-screen">
       <Header />
-      <div className="absolute">
-        <img src={BANNER} alt="banner" />
+      <div className="absolute  ">
+        <img src={BANNER} alt="banner" className="object-cover" />
       </div>
       <form
         onSubmit={(e) => {
