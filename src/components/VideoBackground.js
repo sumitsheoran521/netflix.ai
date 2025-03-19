@@ -14,7 +14,7 @@ const VideoBackground = ({ movieId }) => {
         title="YouTube video player"
         aspect-ratio = "16 / 9"
         frameBorder="0"
-        allow="autoplay; encrypted-media; allowfullscreen"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-shareallowfullscreen"
         referrerPolicy="strict-origin-when-cross-origin"
         allowFullScreen
       ></iframe>
